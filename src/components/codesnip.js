@@ -21,11 +21,19 @@ const langComment = (lang) => {
     }
 }
 
-export default function Codesnippet(props) {
-    const snippet = Snippets[props.page][Math.floor(Math.random()*Snippets[props.page].length)]
+export default function Codesnippet(props) { 
+    const [snippet, setSnippet] = React.useState(0);
+    setSnippet(Snippets[props.page][Math.floor(Math.random()*Snippets[props.page].length)]);
+
+    function changeSnippet() {
+        setSnippet(Snippets[props.page][Math.floor(Math.random()*Snippets[props.page].length)]);
+    }
 
     return (
         <div className="codeWrap">
+            <div className="randomButton" onClick={changeSnippet()}>
+                <img src="image/random.svg" alt="" style={{display: "inline-block"}} />
+            </div>
             <SyntaxHighlighter 
                 lineProps={{style: {wordBreak: 'break-all', whiteSpace: 'pre-wrap'}}} 
                 language={snippet.lang.toLowerCase()} 
