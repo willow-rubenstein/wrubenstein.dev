@@ -1,11 +1,11 @@
 .nameHeader {
+    margin-top:22px;
     text-align: center;
     font-size: 32pt;
     font-family: "display";
 }
 
-.codeWrap {
+.codeWrap { 
     flex: 1;
     flex-direction: column;
-    width: fit-content;
 }

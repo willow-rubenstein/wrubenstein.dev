@@ -6,7 +6,7 @@ import Snippets from '../assets/json/snippets.json';
 const syntaxStyle = {
     margin: "15px 0px 15px 0px",
     color: "#fff", 
-    fontSize: "inherit", 
+    fontSize: "12pt", 
     backgroundColor:'#1D1E18', 
     padding:"10px 10px 10px 10px", 
     borderRadius:"0px",
