@@ -1,0 +1,35 @@
+/* Font Imports */
+@font-face {
+    font-family: "display";
+    src: url("./fonts/display.ttf");
+}
+
+@font-face {
+    font-family: "text";
+    src: url("./fonts/text.ttf");
+}
+
+@font-face {
+    font-family: "code";
+    src: url("./fonts/code.ttf");
+}
+
+/* Global Styles */
+body {
+    background-color: #6E6A6F;
+    color: #D4D2D5;
+    font-family: "text";
+    font-size: 20pt;
+}
+
+/* Link Coloring */
+#link {
+    text-decoration: none;
+    color: inherit;
+}
+#link:hover {
+    color: #AA968A;
+}
+#link:active {
+    color: #6C698D;
+}
