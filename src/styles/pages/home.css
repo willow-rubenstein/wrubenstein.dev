@@ -3,3 +3,9 @@
     font-size: 32pt;
     font-family: "display";
 }
+
+.codeWrap {
+    flex: 1;
+    flex-direction: column;
+    width: fit-content;
+}

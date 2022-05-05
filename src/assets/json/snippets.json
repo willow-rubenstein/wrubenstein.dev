@@ -1,0 +1,8 @@
+{
+    "home": [
+        {"lang": "Javascript", "code": "function hello_world() {\n    let greetingLines = [\n        \"hello!\",\n        \"my name is Willow!\",\n        \"this is my resume.\",\n        \"you're looking at a random code snippet out of 20!\",\n        \"these are written in various different languages!\"\n    ]\n\n    greetingLines.forEach(line => {\n        console.log(line);\n    })\n}"},
+        {"lang": "Python", "code": "greetingLines = [\n    \"hello!\",\n    \"my name is Willow!\",\n    \"this is my resume.\",\n    \"you're looking at a random code snippet out of 20!\",\n    \"these are written in various different languages!\"\n]\n\nfor line in greetingLines:\n    print(line)\n"},
+        {"lang": "Rust", "code": "fn main() {\n    let arr = [\n        \"hello!\",\n        \"my name is Willow!\",\n        \"this is my resume.\",\n        \"you're looking at a random code snippet out of 20!\",\n        \"these are written in various different languages!\"\n    ];\n    for i in 0..arr.len() {\n        println!(\"{}\", arr[i]);\n    }\n}"},
+        {"lang": "Javascript", "code": "import React from 'react';\n\nexport default function hello_world() {\n    var arr = [\n        \"hello!\",\n        \"my name is Willow!\",\n        \"this is my resume.\",\n        \"you're looking at a random code snippet out of 20!\",\n        \"these are written in various different languages!\"\n    ]\n    return (\n        <div>\n            {\n                arr.map(s=><React.Fragment>{s}<br/></React.Fragment>)\n            }\n        </div>\n    )\n}"}
+    ]
+}
