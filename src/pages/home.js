@@ -17,7 +17,7 @@ export default class Home extends Component {
                 <br/><br/>
                 One great example of a software project I worked on is the website you're looking at right now.<br/>
                 Sure, I could've hand-written a resume, but that's <div class="rainbow rainbow_text_animated">B O R I N G</div> and old-fashioned.
-                I wanted to do something new and exciting, and I also wanted to show off my skills/portfolio all in one place,
+                I wanted to do something <div class="exciting exciting_text_animated">new</div> and <div class="exciting exciting_text_animated">exciting</div>, and I also wanted to show off my skills/portfolio all in one place,
                 so this was my ideal solution.
                 <br/><br/>
                 <hr />
@@ -45,16 +45,15 @@ export default class Home extends Component {
                         </ul> 
                     </div>
                     <div>
-                        General Information:
+                        Education:
                         <ul>
-                            <li>Availability: 9am-5pm</li>
-                            <li>Pay: $20/hr</li>
-                            <li>Education: High School</li>
+                            <li>High School: Ben Franklin Academy (Grade 12, 4.0 GPA)</li>
+                            <li>ACT Score: 31</li>
                         </ul> 
                     </div>   
                 </div>
                 <br/>
-                <div className="resumeFill">
+                <div className="resumeFill" >
                     Web Development Projects:
                     <ul>
                         <li><a href="https://thighhighvt.org" id="link">thighhighvt.org</a></li>
@@ -77,6 +76,9 @@ export default class Home extends Component {
                         <li><a href="https://github.com/willow-rubenstein/T.C.P.E" id="link">T.C.P.E (A project emulating the "channel point" system on Twitch in Discord)</a></li>
                     </ul>
                 </div>
+                <br/>
+                (P.S. Press The Infinity Button To Change Code Examples On Top)
+                <br/><br/>
             </div>
         )
     }

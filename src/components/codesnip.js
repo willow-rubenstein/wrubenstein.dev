@@ -7,7 +7,7 @@ const syntaxStyle = {
     margin: "15px 0px 15px 0px",
     color: "#fff", 
     fontSize: "12pt", 
-    backgroundColor:'#1D1E18', 
+    backgroundColor:'#000000', 
     padding:"10px 10px 10px 10px", 
     borderRadius:"0px",
     overflow: "hidden"
@@ -30,8 +30,8 @@ export default function Codesnippet(props) {
 
     return (
         <div className="codeWrap noselect">
-            <div className="randomButton" onClick={changeSnippet}>
-                <img src="image/random.svg" alt="" style={{display: "inline-block"}} />
+            <div className="randomButton" onClick={changeSnippet} title="Click me to change examples!">
+                <img src="image/random.svg" alt="" style={{display: "inline-block"}} title="Click me to change examples!" />
             </div>
             <SyntaxHighlighter 
                 lineProps={{style: {wordBreak: 'break-all', whiteSpace: 'pre-wrap'}}} 
