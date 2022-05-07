@@ -8,6 +8,7 @@
 .codeWrap { 
     flex: 1;
     flex-direction: column;
+    position: relative;
 }
 
 .randomButton {
@@ -15,7 +16,7 @@
     filter: invert(50%);
     position: absolute;
     right: 0;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-top: 5px;
 }
 .randomButton:hover {
@@ -32,7 +33,7 @@
     text-decoration: underline;
     font-family: monospace;
     display: inline-block;
-    font-family: "code";
+    font-family: "text";
 }
 
 .rainbow_text_animated {
@@ -57,10 +58,22 @@
 .resumeTop {
     position: relative;
     display: flex;
-    column-gap: 300px;
+    column-gap: 1.83vw;
     flex-direction: row;
     flex-wrap: wrap;
-    width: fit-content;
+    width: 85vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+li {
+    word-wrap: break-word;
+    max-width: 90vw;
+}
+
+.resumeFill {
+    position: relative;
+    width: 85vw;
     left: 50%;
     transform: translateX(-50%);
 }

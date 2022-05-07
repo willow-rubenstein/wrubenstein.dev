@@ -37,36 +37,46 @@ export default class Home extends Component {
                         </ul>
                     </div>
                     <div>
-                        Education:
+                        Current Jobs:
                         <ul>
-                            <li>JavaScript (3 Years)</li>
-                            <li>Python (7 Years)</li>
-                            <li>HTML(8 Years)</li>
-                            <li>CSS (8 Years)</li>
-                            <li>React (1 Year)</li>
-                            <li>Node.JS (2 Years)</li>
+                            <li>Freelance Music Production (2020-Now)</li>
+                            <li>Freelance Game Development (2022)</li>
+                            <li>ThighhighVT (Owner/Founder) (2021-Now)</li>
+                        </ul> 
+                    </div>
+                    <div>
+                        General Information:
+                        <ul>
+                            <li>Availability: 9am-5pm</li>
+                            <li>Pay: $20/hr</li>
+                            <li>Education: High School</li>
                         </ul> 
                     </div>   
                 </div>
                 <br/>
-                Web Development Projects:
-                <ul>
-                    <li><a href="https://thighhighvt.org" id="link">thighhighvt.org</a></li>
-                    <li><a href="https://shop.thighhighvt.org" id="link">shop.thighhighvt.org (currently closed, I made an entire shop engine from the bottom up in React.JS (working), waiting for an art piece to come in so we can sell posters).</a></li>
-                    <li><a href="https://scorchtogo.com" id="link">scorchtogo.com</a></li>
-                    <li><a href="https://anamanaguchi.com/scottpilgrim/" id="link">anamanaguchi.com/scottpilgrim</a></li>
-                </ul><br/>
-                GitHub Repositories for Various Projects:
-                <ul>
-                    <li><a href="https://github.com/willow-rubenstein/wrubenstein.dev" id="link">This Website!</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/Launchpad-Minesweeper" id="link">Minesweeper for my Launchpad (music device)</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/CircleRGB" id="link">CircleRGB (Changes keyboard RGB fluidly with score in the rhythm game "osu!"")</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/simpadlib" id="link">simpadlib (Custom driver library to change the colors of an RGB keypad using hex)</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/whitakers-words" id="link">whitakers-words (Custom translator app I built for my latin class)</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/anamanaguchi" id="link">anamanaguchi.com/scottpilgrim (source code)</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/frontend" id="link">artoolkit2 frontend (Frontend code for the second iteration of this project that never got used)</a></li>
-                    <li><a href="https://github.com/willow-rubenstein/T.C.P.E" id="link">T.C.P.E (A project emulating the "channel point" system on Twitch in Discord)</a></li>
-                </ul>
+                <div className="resumeFill">
+                    Web Development Projects:
+                    <ul>
+                        <li><a href="https://thighhighvt.org" id="link">thighhighvt.org</a></li>
+                        <li><a href="https://shop.thighhighvt.org" id="link">shop.thighhighvt.org (currently down for maintenance)</a></li>
+                        <li><a href="https://scorchtogo.com" id="link">scorchtogo.com</a></li>
+                        <li><a href="https://anamanaguchi.com/scottpilgrim/" id="link">anamanaguchi.com/scottpilgrim</a></li>
+                    </ul>
+                </div>
+                <br/>
+                <div className="resumeFill">
+                    GitHub Repositories for Various Projects:
+                    <ul>
+                        <li><a href="https://github.com/willow-rubenstein/wrubenstein.dev" id="link">This Website!</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/Launchpad-Minesweeper" id="link">Minesweeper for my Launchpad (music device)</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/CircleRGB" id="link">CircleRGB (Changes keyboard RGB fluidly with score in the rhythm game "osu!"")</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/simpadlib" id="link">simpadlib (Custom driver library to change the colors of an RGB keypad using hex)</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/whitakers-words" id="link">whitakers-words (Custom translator app I built for my latin class)</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/anamanaguchi" id="link">anamanaguchi.com/scottpilgrim (source code)</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/frontend" id="link">artoolkit2 frontend (Frontend code for the second iteration of this project that never got used)</a></li>
+                        <li><a href="https://github.com/willow-rubenstein/T.C.P.E" id="link">T.C.P.E (A project emulating the "channel point" system on Twitch in Discord)</a></li>
+                    </ul>
+                </div>
             </div>
         )
     }

@@ -20,6 +20,8 @@ body {
     color: #D4D2D5;
     font-family: "text";
     font-size: 20pt;
+    width: 85vw;
+    margin: 0 auto;
 }
 
 /* Link Coloring */
