@@ -1,8 +1,11 @@
 .nameHeader {
     margin-top:22px;
-    text-align: center;
-    font-size: 32pt;
+    font-size: 25pt;
     font-family: "display";
+    word-wrap: break-word;
+    max-width: 85vw;
+    width: 85vw;
+    text-align: center;
 }
 
 .codeWrap { 
