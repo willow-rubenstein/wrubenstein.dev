@@ -16,9 +16,9 @@ export default class Home extends Component {
                 to making full video games, and so on and so forth.
                 <br/><br/>
                 One great example of a software project I worked on is the website you're looking at right now.<br/>
-                Sure, I could've hand-written a resume, but that's <div class="rainbow rainbow_text_animated">B O R I N G</div> and old-fashioned.
-                I wanted to do something <div class="exciting exciting_text_animated">new</div> and <div class="exciting exciting_text_animated">exciting</div>, and I also wanted to show off my skills/portfolio all in one place,
-                so this was my ideal solution.
+                I could've hand-written a resume, but that's <div class="rainbow rainbow_text_animated">B O R I N G</div> and old-fashioned.
+                I wanted to do something <div class="exciting exciting_text_animated">new</div> and <div class="exciting exciting_text_animated">exciting</div>, 
+                as well as show my skills/portfolio all in one place, so this was my ideal solution.
                 <br/><br/>
                 <hr />
                 <div className="nameHeader">
