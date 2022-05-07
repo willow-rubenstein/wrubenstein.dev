@@ -29,7 +29,7 @@ export default function Codesnippet(props) {
     }
 
     return (
-        <div className="codeWrap">
+        <div className="codeWrap noselect">
             <div className="randomButton" onClick={changeSnippet}>
                 <img src="image/random.svg" alt="" style={{display: "inline-block"}} />
             </div>
